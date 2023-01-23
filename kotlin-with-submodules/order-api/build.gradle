@@ -17,7 +17,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     implementation group: 'com.fasterxml.jackson.module', name: 'jackson-module-kotlin', version: '2.14.1'
-    implementation project(path: ':kotlin-with-submodules:order-domain')
+    implementation project(path: ':order-domain')
 
     runtimeOnly group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: '1.8.0'
 
