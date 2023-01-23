@@ -1,0 +1,5 @@
+include 'kotlin-with-submodules:order-domain'
+findProject(':kotlin-with-submodules:oder-domain')?.name = 'oder-domain'
+include 'kotlin-with-submodules:order-api'
+findProject(':kotlin-with-submodules:order-api')?.name = 'order-api'
+

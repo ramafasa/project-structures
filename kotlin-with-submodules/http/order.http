@@ -1,0 +1,20 @@
+###
+// Create order
+PUT http://{{host}}/order
+###
+
+// Get order
+GET http://{{host}}/order/3a5445c4-4fe1-4b62-ac74-efa4e39820ed
+###
+
+// Add item to order
+POST http://{{host}}/order/3a5445c4-4fe1-4b62-ac74-efa4e39820ed
+Accept: application/json
+Content-Type: application/json
+
+{
+    "id": "7126c044-39f6-4d3b-be69-13774ce6db46",
+    "quota": 120.9
+}
+
+###
